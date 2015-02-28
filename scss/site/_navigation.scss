@@ -1,0 +1,52 @@
+#searchform {
+  float: right;
+  .button {
+    padding-top: 0;
+  }
+}
+.top-bar-section ul li {
+  float: left;
+  margin: 0 0.2rem;
+}
+.top-bar-section ul li:hover:not(.has-form) > a {
+  background-color: #555555;
+  background: #e2534b;
+  color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 3px darken($secondary-color, 20%);
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  padding: 0 0.5rem;
+  line-height: 2rem;
+  color: #FFFFFF;
+  background: darken($primary-color, 20%);
+  box-shadow: 0 3px darken($primary-color, 40%);
+  border-radius: 5px;
+  &:hover {
+    background: darken($primary-color, 40%);
+    box-shadow: 0 3px darken($primary-color, 40%);
+    border-radius: 5px;
+  }
+}
+.top-bar-section ul {
+  width: auto;
+  height: auto !important;
+  display: inline;
+  padding-top: 10px;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+  padding: 0 0.5rem;
+  line-height: 2rem;
+  background: #76c7c0;
+}
+
+.top-bar-section .dropdown {
+  li {
+//     border-radius: 5px;
+  }
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button) {
+  color: #FFFFFF;
+  background: #e2534b;
+//   border-radius: 5px;
+}
