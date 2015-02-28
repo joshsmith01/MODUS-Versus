@@ -96,6 +96,8 @@ $font-family-heading-sans-serif: Open Sans Semibold ,Open Sans Regular, "Helveti
 // We use these to define default font weights
 // $font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
+$font-weight-semi-bold: 600 !default;
+
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
@@ -1370,12 +1372,12 @@ $topbar-bg-color: $primary-color;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
-// $topbar-height: rem-calc(45);
+
 // $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
-// $topbar-title-weight: $font-weight-normal;
-// $topbar-title-font-size: rem-calc(17);
+$topbar-title-weight: $font-weight-semi-bold;
+$topbar-title-font-size: rem-calc(13);
 
 // Style the top bar dropdown elements
 $topbar-dropdown-bg: $primary-color;
