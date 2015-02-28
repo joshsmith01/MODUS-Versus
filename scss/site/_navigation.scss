@@ -41,6 +41,7 @@
 }
 
 .top-bar-section .dropdown {
+  padding-top: 10px;
   li {
 //     border-radius: 5px;
   }
@@ -48,5 +49,9 @@
 .top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button) {
   color: #FFFFFF;
   background: #e2534b;
-//   border-radius: 5px;
+  border-radius: 5px;
+  &:hover {
+    background: $primary-color;
+    border-radius: 5px;
+  }
 }
