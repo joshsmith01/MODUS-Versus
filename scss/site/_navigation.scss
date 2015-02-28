@@ -1,12 +1,18 @@
+h1 {
+  color: red;
+}
+
 #searchform {
   float: right;
   .button {
     padding-top: 0;
   }
 }
+#menu-main-nav li a {
+  text-transform: uppercase;
+}
 .top-bar-section ul li {
   float: left;
-  margin: 0 0.2rem;
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #555555;
@@ -43,12 +49,19 @@
 .top-bar-section .dropdown {
   padding-top: 10px;
   li {
-//     border-radius: 5px;
+      padding: 5px;
+      background: $secondary-color;
   }
+}
+ul.sub-menu.dropdown {
+  background: $secondary-color;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 6px 0;
 }
 .top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button) {
   color: #FFFFFF;
-  background: #e2534b;
+//   background: #e2534b;
   border-radius: 5px;
   &:hover {
     background: $primary-color;
