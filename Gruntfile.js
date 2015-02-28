@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         // If you can't get source maps to work, run the following command in your terminal:
         // $ sass scss/foundation.scss:css/foundation.css --sourcemap
         // (see this link for details: http://thesassway.com/intermediate/using-source-maps-with-sass )
-        sourceMap: true
+        sourcemap: true
       },
 
       dist: {
@@ -107,9 +107,29 @@ module.exports = function(grunt) {
 
       sass: {
         files: 'scss/**/*.scss',
-        tasks: ['sass']
+        tasks: ['sass'],
+          options: {
+          livereload: true,
+          sourcemap: true,
+        },
       }
-    }
+    },
+    
+    browserSync: {
+      bsFiles: {
+          src : 'css/foundation.css'
+      },
+      options: {
+          proxy: "localhost:8888/modus-versus",
+          watchTask: true
+      }
+}
+    
+    
+    
+    
+    
+    
   });
 
   grunt.loadNpmTasks('grunt-sass');
@@ -118,7 +138,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-string-replace');
-
+  grunt.loadNpmTasks('grunt-browser-sync');
+  
   grunt.registerTask('build', ['copy', 'string-replace:fontawesome', 'sass', 'concat', 'uglify']);
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ['browserSync', 'watch']);
 };
