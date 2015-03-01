@@ -22,4 +22,19 @@ function FoundationPress_theme_support() {
 
 add_action('after_setup_theme', 'FoundationPress_theme_support'); 
 endif;
+// Prevents the text widgets from stripping out break tags. Actually, it replaces the shortcode for a breaktag after processsing. -JMS
+add_filter ( 'widget_title' , 'my_widget_title' , 10 , 3 ) ;
+function my_widget_title ( $title )
+{
+$title = str_replace ( "[br]" , "<br/>" , $title ) ;
+$title = str_replace ( "[span]" , "<span>" , $title ) ;
+$title = str_replace ( "[/span]" , "</span>" , $title ) ;
+return $title ;
+}
+
+
+
+
+
+
 ?>

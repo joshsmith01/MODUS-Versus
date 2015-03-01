@@ -7832,24 +7832,6 @@ ul.sub-menu.dropdown {
 .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
   background: #202020; }
 
-#homepage-hero {
-  background: url("http://foundation.zurb.com/assets/img/marquee-stars.svg") repeat scroll 0 0 #074E68;
-  padding: 1.25rem 0;
-  margin: -2rem 0 2rem;
-  position: relative;
-  text-align: left;
-  height: auto; }
-  #homepage-hero h1 {
-    font-weight: 500; }
-  #homepage-hero h1 a, #homepage-hero h4 {
-    color: #fff; }
-  #homepage-hero .floatingyeti img {
-    max-width: 30%;
-    position: absolute;
-    right: 6.25rem; }
-  #homepage-hero .download {
-    margin-top: 1.25rem; }
-
 .hm-slide-01-header {
   font-size: 1rem; }
 
@@ -7877,11 +7859,110 @@ ul.sub-menu.dropdown {
   padding: 0.325rem; }
 
 .top-services-banner {
+  margin-top: 3.125rem;
   border-radius: 5px;
   background: #ececec;
   box-shadow: 0 3px #868686; }
   .top-services-banner .button {
+    margin-top: 18%;
+    text-transform: uppercase;
     background: #e2534b;
     box-shadow: 0 3px #54110d; }
+  .top-services-banner .button-holder {
+    text-align: center; }
 
+/*==============================
+=            footer            =
+==============================*/
+.footer-container {
+  background: #76c7c0;
+  padding: 0.0625rem;
+  margin-top: 50px;
+  position: relative; }
+  .footer-container svg {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+/* The svg's path has a class called .graph-line. You can add a class to it yourself if you need to. -JMS */
+.graph-line {
+  fill: #FFFFFF;
+  opacity: .2; }
+
+footer, footer a {
+  color: #FFFFFF; }
+
+footer a {
+  transition: color 0.5s ease; }
+  footer a:hover {
+    color: #777; }
+
+footer li {
+  list-style: none;
+  padding-left: 1.2em; }
+
+footer li:before {
+  content: "\f054";
+  font-family: FontAwesome;
+  font-size: 0.5rem;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 1.2em;
+  margin-left: -1.2em; }
+
+.large-4 .footer-header {
+  color: #FFFFFF; }
+  .large-4 .footer-header span {
+    font-weight: bold; }
+
+.large-2 .footer-header {
+  color: #30746e;
+  font-weight: 600; }
+
+.footer-header_4-4 {
+  font-style: italic; }
+  .footer-header_4-4 span {
+    font-style: normal; }
+
+/*-----  End of footer  ------*/
+/*================================
+=            colophon            =
+================================*/
+.colophon-container {
+  background: #3e9991; }
+
+.colophon {
+  color: #FFFFFF;
+  padding: .2rem;
+  line-height: 2rem; }
+  .colophon p {
+    font-size: 1.5rem;
+    margin-bottom: 0; }
+
+ul.social {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  margin: 0; }
+  ul.social li {
+    font-size: 1.5rem;
+    display: inline-block; }
+
+.fa {
+  color: #FFFFFF;
+  padding: 0 .25rem; }
+
+.fa-twitter:hover {
+  color: blue; }
+
+.fa-google-plus:hover {
+  color: red; }
+
+.fa-rss:hover {
+  color: orange; }
+
+.fa-facebook:hover {
+  color: blue; }
+
+/*-----  End of colophon  ------*/
 /*# sourceMappingURL=foundation.css.map */
