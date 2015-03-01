@@ -144,7 +144,7 @@ $body-font-color: #777;
 // $last-child-float: $opposite-direction;
 
 // We use these to make sure border radius matches unless we want it different.
-// $global-radius: 3px;
+$global-radius: 5px;
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -230,6 +230,8 @@ $body-font-color: #777;
 // $subheader-font-weight: $font-weight-normal;
 // $subheader-top-margin: .2rem;
 // $subheader-bottom-margin: .5rem;
+$subheader-alt-font-color: #7f8c8c;
+   
 
 // A general <small> styling
 // $small-font-size: 60%;

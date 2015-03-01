@@ -18,3 +18,37 @@
 
 		.download { margin-top: rem-calc(20); }
 	}
+.hm-slide-01-header {
+  font-size: 1rem;
+}
+/* REMOVE the layer slider background images arrows in favor of iconfonts. -JMS */
+.ls-v5 .ls-playvideo,
+.ls-v5 .ls-nav-sides,
+.ls-v5 .ls-bottom-slidebuttons a,
+.ls-v5 .ls-nav-prev,
+.ls-v5 .ls-nav-next,
+.ls-v5 .ls-nav-start,
+.ls-v5 .ls-nav-stop,
+.ls-v5 .ls-fullscreen,
+.ls-v5 .ls-loading-container {
+	background-image: none !important;
+}
+.ls-nav-next, .ls-nav-prev {
+  background: $secondary-color;
+  border-radius: 5px;
+  background-image: none;
+}
+.ls-nav-next:after {
+  content: "\f101"; 
+  font-family: FontAwesome;
+  font-size: 2rem;
+  color: white;
+  padding: 0.325rem;
+}
+.ls-nav-prev:after {
+  content: "\f100"; 
+  font-family: FontAwesome;
+  font-size: 2rem;
+  color: white;
+  padding: 0.325rem;
+}
