@@ -7757,13 +7757,14 @@ blockquote.alignright, img.alignright {
   #homepage-hero .download {
     margin-top: 1.25rem; }
 
-h1 {
-  color: red; }
+.path-container {
+  background: #76c7c0;
+  position: relative;
+  height: 9px; }
 
-#searchform {
-  float: right; }
-  #searchform .button {
-    padding-top: 0; }
+.graph-line {
+  position: fixed;
+  bottom: 0; }
 
 #menu-main-nav li a {
   text-transform: uppercase; }

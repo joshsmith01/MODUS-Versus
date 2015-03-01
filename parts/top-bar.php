@@ -11,3 +11,6 @@
         </section>
     </nav>
 </div>
+<div class="path-container">
+  <?php include(TEMPLATEPATH.'/img/path-up.svg'); ?>
+</div>

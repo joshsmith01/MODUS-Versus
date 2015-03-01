@@ -1,12 +1,11 @@
-h1 {
-  color: red;
+.path-container {
+  background: $primary-color;
+  position: relative;
+  height: 9px;
 }
-
-#searchform {
-  float: right;
-  .button {
-    padding-top: 0;
-  }
+.graph-line {
+  position: fixed;
+  bottom: 0;
 }
 #menu-main-nav li a {
   text-transform: uppercase;
