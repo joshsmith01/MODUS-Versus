@@ -1,0 +1,7 @@
+.top-services-banner {
+  @include corners;
+  @include bgAndBoxShadow(#ececec);
+  .button {
+  @include bgAndBoxShadow($secondary-color);
+    }
+}
