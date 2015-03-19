@@ -13,8 +13,8 @@
 </div>
 <div class="colophon-container">
   <div class="row colophon">
-    <div class="small-3 columns"><p><?php echo date('Y')." " ?><?php bloginfo( 'name' ); ?></p></div>
-    <div class="small-2 columns last">
+    <div class="small-12 medium-6 columns footer-title "><p><?php echo date('Y')." " ?><?php bloginfo( 'name' ); ?></p></div>
+    <div class="small-12 medium-6 columns last">
       <ul class="social">
         <li class="icon"><i class="fa fa-facebook"></i></li>
         <li class="icon"><i class="fa fa-google-plus"></i></li>

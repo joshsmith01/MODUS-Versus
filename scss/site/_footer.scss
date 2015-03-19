@@ -78,6 +78,14 @@ footer li:before {
     margin-bottom: 0;
   }
 }
+.footer-title {
+  @media #{$small-only} { 
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+}
 ul.social {
   list-style: none;
   display: inline-block;
@@ -85,7 +93,7 @@ ul.social {
   margin: 0;
   li {
     font-size: 1.5rem;
-     display: inline-block;
+    display: inline-block;
   }
 }
 .fa {

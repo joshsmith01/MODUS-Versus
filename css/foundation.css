@@ -7865,7 +7865,6 @@ ul.sub-menu.dropdown {
   background: #ececec;
   box-shadow: 0 3px #868686; }
   .top-services-banner .button {
-    margin-top: 18%;
     text-transform: uppercase;
     background: #e2534b;
     box-shadow: 0 3px #54110d; }
@@ -7940,6 +7939,11 @@ footer li:before {
     font-size: 1.5rem;
     margin-bottom: 0; }
 
+@media only screen and (max-width: 40em) {
+  .footer-title p {
+    font-size: 1.2rem;
+    text-align: center; } }
+
 ul.social {
   list-style: none;
   display: inline-block;
@@ -7966,4 +7970,13 @@ ul.social {
   color: blue; }
 
 /*-----  End of colophon  ------*/
+.legit {
+  display: inline-block;
+  background: #f4f2f3; }
+
+.legit-title {
+  background: #f4f2f3; }
+  .legit-title h4 {
+    font-size: 1rem; }
+
 /*# sourceMappingURL=foundation.css.map */
