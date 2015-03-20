@@ -63,9 +63,12 @@
 */ 
 
 @import "site/base";
-@import "site/custom-vars-mixins";
+@import "site/variables";
+@import "site/mixins";
 @import "site/navigation";
 @import "site/hero";
 @import "site/top-services";
-@import "site/footer";
+@import "site/stats";
 @import "site/too-legit";
+@import "site/footer";
+
