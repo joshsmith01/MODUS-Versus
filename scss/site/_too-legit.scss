@@ -1,14 +1,21 @@
 .too-legit-container {
-//   background: pink;
+  background: $med-grey;
+  margin-top: 30px;
+  padding: 2rem;
 }
 .legit {
-  display: inline-block;
-//   background: $white;
-  background: #f4f2f3;
+  text-align: center;
+  background:  $white;
+  @include corners;
+  img {
+    padding: 2rem 0;
+  }
 }
 .legit-title {
-  background: #f4f2f3;
-    h4 {
+  h4 {
     font-size: 1rem;
+    color: $header-color;
+    font-weight: 900;
+    display: inline-block;
   }
 }

@@ -7871,13 +7871,45 @@ ul.sub-menu.dropdown {
   .top-services-banner .button-holder {
     text-align: center; }
 
+.stats h3 {
+  color: #7f8c8c;
+  font-family: Open Sans Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 900; }
+.stats ul {
+  margin-left: 0; }
+  .stats ul li {
+    list-style: none;
+    color: #777;
+    font-size: 0.8125rem; }
+
+.fa.fa-arrow-right {
+  color: #e2534b; }
+
+.too-legit-container {
+  background: #f4f2f3;
+  margin-top: 30px;
+  padding: 2rem; }
+
+.legit {
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 5px; }
+  .legit img {
+    padding: 2rem 0; }
+
+.legit-title h4 {
+  font-size: 1rem;
+  color: #7f8c8c;
+  font-weight: 900;
+  display: inline-block; }
+
 /*==============================
 =            footer            =
 ==============================*/
 .footer-container {
   background: #76c7c0;
   padding: 0.0625rem;
-  margin-top: 50px;
   position: relative; }
   .footer-container svg {
     position: absolute;
@@ -7970,13 +8002,4 @@ ul.social {
   color: blue; }
 
 /*-----  End of colophon  ------*/
-.legit {
-  display: inline-block;
-  background: #f4f2f3; }
-
-.legit-title {
-  background: #f4f2f3; }
-  .legit-title h4 {
-    font-size: 1rem; }
-
 /*# sourceMappingURL=foundation.css.map */
