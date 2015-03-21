@@ -1,9 +1,11 @@
+.top-services-container {
+  padding-bottom: rem-calc(30px);
+}
 .top-services-banner {
   margin-top: rem-calc(50);
   @include corners;
   @include bgAndBoxShadow(#ececec);
   .button {
-//     margin-top: 18%;
     text-transform: uppercase;
   @include bgAndBoxShadow($secondary-color);
     }

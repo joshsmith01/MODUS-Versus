@@ -1,0 +1,22 @@
+.carousel-container {
+  background: darken($med-grey, 5%);
+  .carousel {
+    h2 {
+      color: $secondary-color;
+    }
+    img {
+      text-align: center;
+    }
+  }
+}
+.browser-window-outer {
+  height: 360px;
+  width: 570px;
+  @include corners;
+  .browser-window-inner {
+    @include corners;
+      height: 340px;
+      width: 560px;
+      color: #7f8c8c;
+  }
+}

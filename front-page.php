@@ -7,13 +7,13 @@
   <div class="top-services-container">
     <div class="row top-services-banner">
       <div class="small-12 columns">
-      <h2>Some of our top Services</h2>
+        <h2>Some of our top Services</h2>
       </div>
         <div class="small-12 medium-6 large-9 columns">
           <p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
         </div>
         <div class="small-12 medium-6 large-3 columns button-holder">
-        <div class="button large small-centered radius">View More</div>
+          <div class="button large small-centered radius">View More</div>
       </div>
     </div>
   </div>
@@ -50,24 +50,20 @@
         </div>
       </div><!--  END services -->
     </div><!--  END services-container -->
-    <!--  START carousel -->
+  
     
-    <div class="carousel-container">
+    <div class="carousel-container"><!--  START carousel -->
       <div class="row carousel">
         <h2 class="small-12 columns text-center">Why Modus Versus?</h2>
         <p class="small-12 columns text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptate.</p>
-          
-          </div>
-        </div>
-      </div>
-    </div>
+      </div><!--  END carousel -->
+    </div><!--  END carousel-container -->
     
     
     
     
     
-    <!--  END carousel -->
-    
+ 
     
     
     
@@ -75,7 +71,8 @@
     
     
     
-    <section class="stats-container">
+    
+    <section class="stats-container"><!--  START stats-container -->
       <div class="row stats">
         <div class="small-12 medium-3 columns choose-us">
           <h3>Why Choose Us?</h3>
