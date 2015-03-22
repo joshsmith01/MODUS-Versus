@@ -51,27 +51,42 @@
       </div><!--  END services -->
     </div><!--  END services-container -->
   
+  
     
     <div class="carousel-container"><!--  START carousel -->
+    <?php include("img/path-down.svg"); ?>
       <div class="row carousel">
         <h2 class="small-12 columns text-center">Why Modus Versus?</h2>
         <p class="small-12 columns text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptate.</p>
+      
+
       </div><!--  END carousel -->
-    </div><!--  END carousel-container -->
-    
-    
-    
-    
-    
- 
-    
-    
-    
-    
-    
-    
-    
-    
+    </div><!--  END carousel-container -->    
+<div class="why-modus-container">
+  <div class="row why-modus">
+    <div class="small-12 medium-7 medium-centered large-4 large-uncentered columns small-padding "><div class="why-image-holder-01">
+      <div class="frame">
+        <span class="button-01"></span>
+        <span class="button-02"></span>
+        <span class="button-03"></span>
+      </div>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carousel-images/happy-meeting-in-background.jpg" alt="why-image-holder-02 happy-meeting-in-background" width="100%" height="auto" /></div></div>
+    <div class="small-12 medium-7 medium-centered large-4 large-uncentered columns small-padding"><div class="why-image-holder-02">
+     <div class="frame">
+      <span class="button-01"></span>
+      <span class="button-02"></span>
+      <span class="button-03"></span>
+    </div>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carousel-images/listening-over-the-shoulder.jpg" alt="listening-over-the-shoulder" width="100%" height="auto" /></div></div>
+    <div class="small-12 medium-7 medium-centered large-4 large-uncentered columns small-padding"><div class="why-image-holder-03">
+     <div class="frame">
+      <span class="button-01"></span>
+      <span class="button-02"></span>
+      <span class="button-03"></span>
+    </div>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carousel-images/stern-arms-crossed.jpg" alt="stern-arms-crossed" width="100%" height="auto" /></div></div>
+    </div>
+</div>
     <section class="stats-container"><!--  START stats-container -->
       <div class="row stats">
         <div class="small-12 medium-3 columns choose-us">
@@ -86,7 +101,7 @@
           </ul>
         </div>
         <div class="small-12 medium-6 columns circle-graphs">
-          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, harum, dignissimos! Suscipit harum, corporis modi!
+          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="secondary-color">Nesciunt</span>, harum, dignissimos! Suscipit harum, corporis modi!
             <div class="row">
               <div class="small-3 columns">
               <div id="circle">

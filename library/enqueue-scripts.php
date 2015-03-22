@@ -22,6 +22,8 @@ if (!function_exists('FoundationPress_scripts')) :
     // It's a good idea to do this, performance-wise. No need to load everything if you're just going to use the grid anyway, you know :)
     wp_register_script( 'foundation', get_template_directory_uri() . '/js/foundation.js', array('jquery'), '5.5.1', true );
     
+    wp_register_script( 'slick-slider', get_template_directory_uri() . '/bower_components/slick.js/slick/slick.min.js', array('jquery'), '5.5.1', true );
+    
 /*     wp_register_script( 'foundation-equalizer', get_template_directory_uri() . '/js/foundation.equalizer.js', array('jquery'), '5.5.1', true ); */
 
     // Enqueue all registered scripts
@@ -29,6 +31,7 @@ if (!function_exists('FoundationPress_scripts')) :
     wp_enqueue_script('fastclick');
     wp_enqueue_script('jquery');
     wp_enqueue_script('foundation');
+    wp_enqueue_script('slick-slider');    
 
   }
 

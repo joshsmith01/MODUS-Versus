@@ -1,8 +1,11 @@
-$('.service-bg').hover(
-  function() {
-    $('.fa .fa-key').addClass( "secondary-color");
-  }, 
-  function() {
-    $('.fa .fa-key').removeClass( "secondary-color");
-  }
-);
+$(document).ready(function(){
+    $('.your-class').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots: true,
+    centerMode: true,
+    centerPadding: '40px',
+    autoplay: false,
+    autoplaySpeed: 2000
+  });
+});

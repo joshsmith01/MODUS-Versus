@@ -1,6 +1,9 @@
 @mixin corners {
   border-radius: 5px;
 }
+@mixin big-corners {
+  border-radius: 10px;
+}
 @mixin bgAndBoxShadow ($baseColor) {
   background: $baseColor;
   box-shadow: 0 3px darken($baseColor, 40%);
