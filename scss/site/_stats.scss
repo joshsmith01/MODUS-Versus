@@ -40,14 +40,19 @@
     }
 }
 .circle-graphs h4 {
-  display: inline-block;
   font-family: $font-family-sans-serif;
   font-size: .9rem;
   color: $body-font-color;
   font-weight: 900;
+  text-align: center;
 }
-#circle {
-  background: pink;
-  height: 100%;
-  width: 100%;
+.dial {
+  margin-left: -($column-gutter);
+  color: $secondary-color;
+}
+input.dial {
+  margin: 0;
+  height: 3rem;
+  box-shadow: none;
+  border: none;
 }

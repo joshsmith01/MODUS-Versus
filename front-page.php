@@ -101,25 +101,38 @@
           </ul>
         </div>
         <div class="small-12 medium-6 columns circle-graphs">
-          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="secondary-color">Nesciunt</span>, harum, dignissimos! Suscipit harum, corporis modi!
+          <h3 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="secondary-color">Nesciunt</span>, harum, dignissimos! Suscipit harum, corporis modi!</h3>
+          
+          
+          
             <div class="row">
-              <div class="small-3 columns">
-              <div id="circle">
+              <div class="small-3 medium-6 large-3 columns nopadding">
+                <h4 class="small-centered">Lorem</h4>
+                <input type="text" value="75" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
               </div>
-                  <h4>Lorem</h4>
-                </img></div>
-              <div class="small-3 columns"><img src="" alt="">
-                  <h4>Ullam</h4>
-                </img></div>
-              <div class="small-3 columns"><img src="" alt="">
-                  <h4>Minus</h4>
-                </img></div>
-              <div class="small-3 columns"><img src="" alt="">
-                  <h4>Quas</h4>
-                </img></div>
+              <div class="small-3 medium-6 large-3 columns nopadding">
+                <h4>Ullam</h4>
+                <input type="text" value="75" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
+                </div>
+              <div class="small-3 medium-6 large-3 columns nopadding">
+                <h4>Minus</h4>
+                <input type="text" value="75" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
+                </div>
+              <div class="small-3 medium-6 large-3 columns nopadding">
+                <h4>Quas</h4>
+                <input type="text" value="75" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
+                </div>
             </div>
-          </h3>
+
         </div>
+<script>
+    $(function() {
+        $(".dial").knob({
+        });
+    });
+</script>
+        
+        
         <div class="small-12 medium-3 columns single-testimonial">
           <h3>What Clients Say?</h3>
           <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi necessitatibus quam eius aut temporibus ipsa sed autem labore nihil eligendi.<cite>John Doe</cite></blockquote>
