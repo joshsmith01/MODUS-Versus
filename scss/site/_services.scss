@@ -13,7 +13,8 @@
     font-size: 1rem;
     font-weight: 900;
   }
-  .button {
+  .service-button {
+    @extend button;
     text-transform: uppercase;
     position: absolute;
     margin-left: auto;

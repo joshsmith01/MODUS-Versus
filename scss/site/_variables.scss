@@ -3,5 +3,6 @@ $med-grey: #f4f2f3;
 $img-border: #c1c7c8;
 
 .secondary-color {
-  color: $secondary-color;
+  color: $secondary-color !important;
+  transition: color 300ms ease-out;
 }

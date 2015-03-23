@@ -7,7 +7,7 @@
   <div class="top-services-container">
     <div class="row top-services-banner">
       <div class="small-12 columns">
-        <h2>Some of our top Services</h2>
+        <h3>Some of our top Services</h3>
       </div>
         <div class="small-12 medium-6 large-9 columns">
           <p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
@@ -24,35 +24,33 @@
           <div class="service-bg">
             <i class="fa fa-thumbs-o-up"></i>
             <h3>SUSPENDISSE</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde alias impedit velit sit ea!</p>
-            <div class="button">Read More</div>
+            <div class="service-button">Read More</div>
           </div>
         </div>
         <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
           <div class="service-bg">
             <i class="fa fa-key"></i>
             <h3>MAECENAS</h3><p>Iste architecto omnis, esse facere quod ratione, officia veritatis fugit.</p>
-            <div class="button">Read More</div>
+            <div class="service-button">Read More</div>
           </div>
         </div>
         <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
           <div class="service-bg">
             <i class="fa fa-flag"></i>
             <h3>ALIQUAM</h3><p>Iste architecto omnis, esse facere quod ratione, officia veritatis fugit.</p>
-            <div class="button">Read More</div>
+            <div class="service-button">Read More</div>
           </div>
         </div>
         <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
           <div class="service-bg">
             <i class="fa fa-flask"></i>
             <h3>HABITASSE</h3><p>Ducimus voluptates assumenda, illum adipisci sed quaerat est ipsum nisi.</p>
-            <div class="button">Read More</div>
+            <div class="service-button">Read More</div>
           </div>
         </div>
       </div><!--  END services -->
     </div><!--  END services-container -->
   
-  
-    
     <div class="carousel-container"><!--  START carousel -->
     <?php include("img/path-down.svg"); ?>
       <div class="row carousel">
@@ -107,20 +105,20 @@
           
             <div class="row">
               <div class="small-3 medium-6 large-3 columns nopadding">
-                <h4 class="small-centered">Lorem</h4>
-                <input type="text" value="75" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
+                <h4 class="small-centered"><?php the_field('graph_01'); ?></h4>
+                <input type="text" value="<?php the_field('graph_01_input'); ?>" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
               </div>
               <div class="small-3 medium-6 large-3 columns nopadding">
-                <h4>Ullam</h4>
-                <input type="text" value="75" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
+                <h4><?php the_field('graph_02'); ?></h4>
+                <input type="text" value="<?php the_field('graph_02_input'); ?>" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
                 </div>
               <div class="small-3 medium-6 large-3 columns nopadding">
-                <h4>Minus</h4>
-                <input type="text" value="75" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
+                <h4><?php the_field('graph_03'); ?></h4>
+                <input type="text" value="<?php the_field('graph_03_input'); ?>" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
                 </div>
               <div class="small-3 medium-6 large-3 columns nopadding">
-                <h4>Quas</h4>
-                <input type="text" value="75" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
+                <h4><?php the_field('graph_04'); ?></h4>
+                <input type="text" value="<?php the_field('graph_04_input'); ?>" class="dial" data-angleArc="180" data-angleOffset="-90" data-thickness=".2" data-readonly="true" data-width="100%">
                 </div>
             </div>
 

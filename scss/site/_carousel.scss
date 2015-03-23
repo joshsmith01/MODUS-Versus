@@ -10,12 +10,10 @@
   }
 }
 .browser-window-outer {
-
   height: 360px;
   width: 570px;
   @include corners;
   .browser-window-inner {
-     
     @include corners;
       height: 340px;
       width: 560px;
@@ -25,6 +23,21 @@
 .why-modus-container {
   background: linear-gradient(to bottom, #e8e4e6 0%,#e8e4e6 50%,#f3f3f3 50%,#f3f3f3 100%);
   padding-bottom: 2rem;
+}
+@media #{$large-only} { 
+  .why-image-holder-01, .why-image-holder-03 {
+    width: 90%;
+    margin-top: 4%;
+  }
+  .why-image-holder-01 {
+    margin-left: 180px;
+  }
+  .why-image-holder-02 {
+    z-index: 2;
+  }
+  .why-image-holder-03 {
+    margin-left: -150px;
+  }
 }
 [class^="why-image-holder"] {
    position: relative;
