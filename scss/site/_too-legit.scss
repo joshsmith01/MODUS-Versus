@@ -11,10 +11,23 @@
   }
 }
 .legit-title {
+  position: relative;
   h4 {
     font-size: 1rem;
     color: $header-color;
     font-weight: 900;
     display: inline-block;
+      &:after {
+        border-top: 1px solid #DFDFDF;
+        display: block;
+        height: 1px;
+        content: " ";
+        width: 70%;
+        position: absolute;
+        left: 197px;
+        /* overflow: hidden; */
+        box-shadow: 1px 1px 1px #C1C1C1;
+        top: 0.9em;
+    }
   }
 }
