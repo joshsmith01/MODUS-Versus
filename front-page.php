@@ -144,7 +144,7 @@
       <div class="legit-title">
         <h4>Our Happy Clients</h4>
       </div>
-        <ul class="small-block-grid-6">
+        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-6">
          <li>
           <p class="legit"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jquery-logo.png" alt="jquery-logo_03" width="102" height="26" /></p>
           </li>
