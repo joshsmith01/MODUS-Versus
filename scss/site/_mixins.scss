@@ -11,3 +11,6 @@
 @mixin BoxShadow ($baseColor) {
   box-shadow: 0 3px darken($baseColor, 40%);
 }
+.corners {
+  @include corners;
+}

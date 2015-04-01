@@ -1,8 +1,15 @@
-$header-color: #7f8c8c;
-$med-grey: #f4f2f3;
-$img-border: #c1c7c8;
-
 .secondary-color {
   color: $secondary-color !important;
   transition: color 300ms ease-out;
+}
+h1, h2, h3, h4, h5, h6, label {
+color: $header-color;
+}
+h6 {
+  font-weight: $font-weight-bold;
+}
+.button {
+  text-transform: uppercase;
+  margin-top: -(rem-calc(30));
+  @include bgAndBoxShadow($secondary-color);
 }

@@ -1,0 +1,20 @@
+.name h1 a {
+  font-size: 2rem;
+}
+/* Single Blog Post */
+.post header {
+  font-size: 0.875rem;
+  a {
+    color: $secondary-color;
+  }
+}
+.entry-title {
+  font-family: $header-font-family;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $primary-color;
+}
+time.updated {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}

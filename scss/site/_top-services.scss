@@ -1,16 +1,15 @@
 .top-services-container {
-//   padding-bottom: rem-calc(30px);
   padding: 0 0.875rem rem-calc(30px);;
 }
 .top-services-banner {
   margin-top: rem-calc(50);
   @include corners;
-  @include bgAndBoxShadow(#ececec);
+  @include bgAndBoxShadow($light-bg);
   .button {
     text-transform: uppercase;
     margin-top: -(rem-calc(30));
-  @include bgAndBoxShadow($secondary-color);
-    }
+    @include bgAndBoxShadow($secondary-color);
+  }
   .button-holder {
     text-align: center;
   }

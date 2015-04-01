@@ -1,0 +1,19 @@
+.prices-container {
+  background: linear-gradient(to bottom,  #f8f8f8 0%,#ffffff 50%,#f8f8f8 50%,#ffffff 100%);
+}
+.stats-container.services, .services-introduction-container {
+  background: #f3f3f3;
+}
+.services-closing {
+  text-align: center;
+}
+.price-list {
+  text-align: left;
+  
+  li {
+    list-style: none;
+    &:not(&:last-child) {
+      border-bottom: 1px solid $light-bg;
+    }
+}
+}

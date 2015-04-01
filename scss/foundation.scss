@@ -63,8 +63,11 @@
 */ 
 
 @import "site/base";
-@import "site/variables";
 @import "site/mixins";
+@import "site/variables";
+@import "site/typography";
+@import "site/buttons";
+@import "site/lists";
 /* ADDED Slickslider styles */
 // @import "../bower_components/slick.js/slick/_slick-theme";
 // @import "../bower_components/slick.js/slick/_slick";
@@ -77,4 +80,9 @@
 @import "site/stats";
 @import "site/too-legit";
 @import "site/footer";
-
+@import "site/contact";
+@import "site/icons";
+@import "site/portfolio";
+@import "site/pagination";
+@import "site/services-page";
+@import "site/about-us-page";

@@ -56,7 +56,7 @@ ul.sub-menu.dropdown {
   background: $secondary-color;
   border-radius: 5px;
   padding: 5px;
-  margin: 6px 0;
+  margin: 0;
 }
 .top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button) {
   color: #FFFFFF;
@@ -82,4 +82,18 @@ ul.sub-menu.dropdown {
 }
 .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
 	background: #202020;
+}
+
+
+
+.top-bar-section .has-dropdown > a:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset 5px;
+  border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
+  border-top-style: solid;
+  margin-top: -2.5px;
+  top: 1.10625rem;
 }

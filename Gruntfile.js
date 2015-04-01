@@ -104,6 +104,14 @@ module.exports = function(grunt) {
 
     watch: {
       grunt: { files: ['Gruntfile.js'] },
+       
+      js: {
+        files: ['js/**/*.js'],
+        tasks: ['concat', 'uglify'],
+          options: {
+            livereload: true,
+        },
+      },
 
       sass: {
         files: 'scss/**/*.scss',
@@ -117,17 +125,13 @@ module.exports = function(grunt) {
     
     browserSync: {
       bsFiles: {
-          src : 'css/foundation.css'
+          src : ['css/foundation.css', 'js/foundation.js', '*.php']
       },
       options: {
           proxy: "localhost:8888/modus-versus",
           watchTask: true
       }
 }
-    
-    
-    
-    
     
     
   });

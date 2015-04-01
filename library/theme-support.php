@@ -32,8 +32,17 @@ $title = str_replace ( "[/span]" , "</span>" , $title ) ;
 return $title ;
 }
 
+add_action( 'after_setup_theme', 'baw_theme_setup' );
+function baw_theme_setup() {
+  add_image_size( '570x270', 570, 270, array( 'center', 'center' )  ); // (cropped)
+  add_image_size( '370x270', 370, 270, array( 'center', 'center' ) ); // (cropped)
+  add_image_size( '270x270', 270, 270, array( 'center', 'center' ) ); // (cropped)
+}
 
-
+function custom_excerpt_length( $length ) {
+	return 60;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 
 

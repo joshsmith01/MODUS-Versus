@@ -1,0 +1,48 @@
+.page-title .breadcrumbs {
+  margin-top: 1rem;
+}
+ul.icon
+{
+    list-style-type: none;
+}
+ 
+ul.icon li
+{
+    text-indent: -1.4em;
+}
+ul.icon li.marker:before
+{
+    font-family: fontAwesome;
+    content: "\f041";
+    float: left;
+    width: 1.5rem;
+    font-size: 2rem;
+    color: $secondary-color;
+    margin-top: -20px;
+}
+ul.icon li.email:before
+{
+    font-family: fontAwesome;
+    content: "\f003";
+    float: left;
+    width: 1.5rem;
+}
+ul.icon li.phone:before
+{
+    font-family: fontAwesome;
+    content: "\f095";
+    float: left;
+    width: 1.5rem;
+}
+
+// Link
+.fa.fa-link {
+  color: $white;
+  padding: 10px;
+  background: $primary-color;
+  margin-right: 2px;
+  @include corners;
+  &:hover {
+    background: $secondary-color;
+  }
+}

@@ -1,0 +1,21 @@
+.port-col-one {
+  h2 {
+    font-size: 1.3125rem;
+    line-height: 1.3125rem;
+    margin-top: 0;
+  }
+  p { 
+    font-size: .7125rem;
+  }
+  a { 
+    font-size: .85rem;
+  }
+  img {
+    @include corners;
+    @include bgAndBoxShadow($primary-color);
+  }
+  
+}
+.one-col-index {
+  margin-top: rem-calc(30)
+}

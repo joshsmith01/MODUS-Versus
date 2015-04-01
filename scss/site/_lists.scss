@@ -1,0 +1,28 @@
+#sidebar ul {
+  margin-left: 0;
+  li.cat-item, li {
+    list-style: none;
+    padding-left: 1rem;
+    &:before {
+      content: '\f061'; /* FontAwesome char code inside the '' */
+      font-family: FontAwesome; /* FontAwesome or whatever */
+      display: inline-block;
+      width: 1.2rem; /* same as padding-left set on li */
+      margin-left: -1em; /* same as padding-left set on li */
+      background: $primary-color;
+      border-radius: 15px;
+      padding: 6.4px;
+      line-height: .6rem;
+      color: $white;
+      font-size: .6rem;
+      margin-right: .2rem;
+      vertical-align: middle;
+    }
+    a {
+      color: $secondary-color;
+    }
+  }
+}
+ul.icon li {
+  text-indent: 0 !important;
+}

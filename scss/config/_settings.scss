@@ -48,6 +48,16 @@
 // 34. Top Bar
 // 36. Visibility Classes
 
+// 37. Variables
+$header-color: #7f8c8c;
+$med-grey: #f4f2f3;
+$img-border: #c1c7c8;
+$light-bg: #ececec;
+
+
+
+
+
 // a. Base
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -79,9 +89,9 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
-$row-width: rem-calc(1170);
+$row-width: 1170px;
 // $total-columns: 12;
-$column-gutter: rem-calc(58);
+$column-gutter: 30px;
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -199,7 +209,7 @@ $global-radius: 5px;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
+$header-font-family: Open Sans Semibold ,Open Sans Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
 // $header-font-color: $jet;
@@ -207,6 +217,8 @@ $global-radius: 5px;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
 // $header-text-rendering: optimizeLegibility;
+
+
 
 // We use these to control header font sizes
 // $h1-font-size: rem-calc(44);
@@ -276,7 +288,7 @@ $subheader-alt-font-color: #7f8c8c;
 // $list-line-height: $paragraph-line-height;
 // $list-margin-bottom: $paragraph-margin-bottom;
 // $list-style-position: outside;
-// $list-side-margin: 1.1rem;
+$list-side-margin: .5rem;
 // $list-ordered-side-margin: 1.4rem;
 // $list-side-margin-no-bullet: 0;
 // $list-nested-margin: rem-calc(20);
@@ -631,7 +643,7 @@ $subheader-alt-font-color: #7f8c8c;
 // $input-font-family: inherit;
 // $input-font-color: rgba(0,0,0,0.75);
 // $input-font-size: rem-calc(14);
-// $input-bg-color: $white;
+$input-bg-color: $light-bg;
 // $input-focus-bg-color: scale-color($white, $lightness: -2%);
 // $input-border-color: scale-color($white, $lightness: -20%);
 // $input-focus-border-color: scale-color($white, $lightness: -40%);

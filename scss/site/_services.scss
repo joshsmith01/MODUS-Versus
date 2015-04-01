@@ -1,5 +1,5 @@
 .services-container {
-  background: #f8f8f8;
+  background: #efefef;
   padding: 0 0 50px;
 }
 .services {
@@ -13,27 +13,11 @@
     font-size: 1rem;
     font-weight: 900;
   }
-  .service-button {
-    @extend button;
-    text-transform: uppercase;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    
-    left: 4rem;
-    right: 4rem;
-    bottom: -65px;
-    @include corners;
-    @include bgAndBoxShadow($primary-color);
-    &:hover {
-      background-color: $secondary-color;
-    }
-  }
-}
+  } 
 .service-bg {
   background: $white;
   padding: 1rem;
-  margin: 0 -1rem;
+  margin: 0;
   height: 100%;
   @include BoxShadow($med-grey);
   @include corners;

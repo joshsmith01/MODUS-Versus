@@ -18,73 +18,71 @@
     </div>
   </div>
    
-    <div class="services-container"> <!--  START services -->
-      <div class="row services" data-equalizer>
-        <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
-          <div class="service-bg">
-            <i class="fa fa-thumbs-o-up"></i>
-            <h3>SUSPENDISSE</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde alias impedit velit sit ea!</p>
-            <div class="service-button">Read More</div>
-          </div>
+  <div class="services-container"> <!--  START services -->
+    <div class="row services" data-equalizer>
+      <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
+        <div class="service-bg">
+          <i class="fa fa-thumbs-o-up"></i>
+          <h3>SUSPENDISSE</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde alias impedit velit sit ea!</p>
+          <div class="service-button small">Read More</div>
         </div>
-        <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
-          <div class="service-bg">
-            <i class="fa fa-key"></i>
-            <h3>MAECENAS</h3><p>Iste architecto omnis, esse facere quod ratione, officia veritatis fugit.</p>
-            <div class="service-button">Read More</div>
-          </div>
+      </div>
+      <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
+        <div class="service-bg">
+          <i class="fa fa-key"></i>
+          <h3>MAECENAS</h3><p>Iste architecto omnis, esse facere quod ratione, officia veritatis fugit.</p>
+          <div class="service-button">Read More</div>
         </div>
-        <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
-          <div class="service-bg">
-            <i class="fa fa-flag"></i>
-            <h3>ALIQUAM</h3><p>Iste architecto omnis, esse facere quod ratione, officia veritatis fugit.</p>
-            <div class="service-button">Read More</div>
-          </div>
+      </div>
+      <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
+        <div class="service-bg">
+          <i class="fa fa-flag"></i>
+          <h3>ALIQUAM</h3><p>Iste architecto omnis, esse facere quod ratione, officia veritatis fugit.</p>
+          <div class="service-button">Read More</div>
         </div>
-        <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
-          <div class="service-bg">
-            <i class="fa fa-flask"></i>
-            <h3>HABITASSE</h3><p>Ducimus voluptates assumenda, illum adipisci sed quaerat est ipsum nisi.</p>
-            <div class="service-button">Read More</div>
-          </div>
+      </div>
+      <div class="small-12 medium-6 large-3 columns service" data-equalizer-watch>
+        <div class="service-bg">
+          <i class="fa fa-flask"></i>
+          <h3>HABITASSE</h3><p>Ducimus voluptates assumenda, illum adipisci sed quaerat est ipsum nisi.</p>
+          <div class="service-button">Read More</div>
         </div>
-      </div><!--  END services -->
-    </div><!--  END services-container -->
+      </div>
+    </div><!--  END services -->
+  </div><!--  END services-container -->
   
-    <div class="carousel-container"><!--  START carousel -->
+  <div class="carousel-container"><!--  START carousel -->
     <?php include("img/path-down.svg"); ?>
       <div class="row carousel">
         <h2 class="small-12 columns text-center">Why Modus Versus?</h2>
         <p class="small-12 columns text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptate.</p>
-      
-
       </div><!--  END carousel -->
     </div><!--  END carousel-container -->    
-<div class="why-modus-container">
-  <div class="row why-modus">
-    <div class="small-12 medium-7 medium-centered large-4 large-uncentered columns small-padding "><div class="why-image-holder-01">
-      <div class="frame">
+  <div class="why-modus-container">
+    <div class="row why-modus">
+      <div class="small-12 medium-7 medium-centered large-4 large-uncentered columns small-padding "><div class="why-image-holder-01">
+        <div class="frame">
+          <span class="button-01"></span>
+          <span class="button-02"></span>
+          <span class="button-03"></span>
+        </div>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carousel-images/happy-meeting-in-background.jpg" alt="why-image-holder-02 happy-meeting-in-background" width="100%" height="auto" /></div></div>
+      <div class="small-12 medium-7 medium-centered large-4 large-uncentered columns small-padding"><div class="why-image-holder-02">
+       <div class="frame">
         <span class="button-01"></span>
         <span class="button-02"></span>
         <span class="button-03"></span>
       </div>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carousel-images/happy-meeting-in-background.jpg" alt="why-image-holder-02 happy-meeting-in-background" width="100%" height="auto" /></div></div>
-    <div class="small-12 medium-7 medium-centered large-4 large-uncentered columns small-padding"><div class="why-image-holder-02">
-     <div class="frame">
-      <span class="button-01"></span>
-      <span class="button-02"></span>
-      <span class="button-03"></span>
-    </div>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carousel-images/listening-over-the-shoulder.jpg" alt="listening-over-the-shoulder" width="100%" height="auto" /></div></div>
-    <div class="small-12 medium-7 medium-centered large-4 large-uncentered columns small-padding"><div class="why-image-holder-03">
-     <div class="frame">
-      <span class="button-01"></span>
-      <span class="button-02"></span>
-      <span class="button-03"></span>
-    </div>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carousel-images/stern-arms-crossed.jpg" alt="stern-arms-crossed" width="100%" height="auto" /></div></div>
-    </div>
-</div>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carousel-images/listening-over-the-shoulder.jpg" alt="listening-over-the-shoulder" width="100%" height="auto" /></div></div>
+      <div class="small-12 medium-7 medium-centered large-4 large-uncentered columns small-padding"><div class="why-image-holder-03">
+       <div class="frame">
+        <span class="button-01"></span>
+        <span class="button-02"></span>
+        <span class="button-03"></span>
+      </div>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carousel-images/stern-arms-crossed.jpg" alt="stern-arms-crossed" width="100%" height="auto" /></div></div>
+      </div>
+  </div>
     <section class="stats-container"><!--  START stats-container -->
       <div class="row stats">
         <div class="small-12 medium-3 columns choose-us">
@@ -163,8 +161,6 @@
          <li>
           <p class="legit"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jquery-logo.png" alt="jquery-logo_03" width="102" height="26" /></p>
           </li>
-
-          
         </ul>
         </div>
       </div><!--  END too-legit-container -->

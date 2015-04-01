@@ -1,0 +1,29 @@
+.page-title-container {
+  background: $light-bg;
+//   margin-bottom: 3.125rem;
+}
+.contact-intro {
+  margin-top: 3.125rem;
+  p {
+    background: $light-bg;
+    padding: 2rem 1rem;
+    @include corners;
+  }
+}
+.page-title { 
+  h1 {
+  font-size: 1.4rem;
+  font-family: $header-font-family;
+  padding: .775rem 0;
+  }
+
+}
+.form-title {
+  margin-bottom: 2rem;
+}
+li {
+  color: grey;
+}
+a.secondary-color {
+  text-decoration: underline;
+}

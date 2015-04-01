@@ -56,3 +56,21 @@
 
 <section class="container" role="document">
 	<?php do_action('foundationPress_after_header'); ?>
+	<!--  Display inner page title container and breadcrumbs on pages that aren *not* the home page -JMS -->
+	<?php if( !is_front_page() ) : ?>
+    <div class="page-title-container">
+      <div class="row page-title">
+        <div class="small-12 large-6 columns" role="main">
+          <h1><?php wp_title(); ?></h1>
+        </div>
+        <nav class="small-12 large-6 columns breadcrumbs">
+
+        </nav>
+      </div><!--  END page-title -->
+    </div><!--  END page-title-container -->
+	<?php endif; ?>
+	
+	
+	
+	
+	
